@@ -1,0 +1,36 @@
+/* SighnUpHome.css */
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-card {
+  width: 350px; /* Set the width of the card */
+  height: 350px; /* Set the height of the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px; /* Add padding to the card content */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); /* Add box-shadow for a 3D effect */
+  margin: 20px; /* Add margin between the cards */
+  margin-bottom: 14%;
+}
+
+.icon {
+  font-size: 80px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.txtxolor {
+  background-color: '#2e6117';
+}
+.info {
+  text-align: center; /* Center text */
+  margin-bottom: 20px; /* Add margin to separate text from button */
+  padding-bottom: 20px;
+}

@@ -1,0 +1,74 @@
+.sign-up-SignUpBusiness-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-SignUpBusiness-card {
+  width: 53%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8%;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.file-upload {
+  display: flex;
+  align-items: center;
+}
+
+.file-upload label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.file-upload label svg {
+  margin-right: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.terms-and-conditions {
+  margin-top: 20px;
+}
+
+.terms-and-conditions label {
+  font-size: 0.9rem;
+}
+.Terms-Condition {
+  margin-right: 6px;
+  color: #2e6117;
+  text-decoration: none;
+}
+
+.signup-in-button {
+  margin-right: 8px;
+  background-color: #2e6117;
+  color: #d0ebe8;
+  &:hover {
+    background-color: #428125; /* Darker shade on hover */
+  }
+}
+.check {
+  display: flex;
+  justify-content: center;
+}
+.sign-up-business-container {
+  margin-bottom: 100px;
+}
+.sign-in {
+  color: #2e6117;
+  text-decoration: none;
+}
