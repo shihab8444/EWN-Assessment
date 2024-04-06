@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Button } from '@mui/material'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className='navbar'>
@@ -81,7 +82,9 @@ const Navbar = () => {
             style={{ backgroundColor: '#4ca652', color: '#fff' }}
             sx={{ ml: 6, mr: 6 }}
           >
-            SIGN IN
+            <Link to='/' className='SignIn'>
+              SIGN IN
+            </Link>
           </Button>
         </div>
       </div>
