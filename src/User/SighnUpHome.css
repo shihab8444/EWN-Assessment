@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .sign-up-card {
@@ -18,7 +17,7 @@
   border-radius: 8px; /* Add border-radius for rounded corners */
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); /* Add box-shadow for a 3D effect */
   margin: 20px; /* Add margin between the cards */
-  margin-bottom: 14%;
+  margin-top: 10%;
 }
 
 .icon {
