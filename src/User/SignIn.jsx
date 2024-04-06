@@ -1,17 +1,19 @@
 import { React, useState } from 'react'
 import './SignIn.css' // Import your CSS file for styling
 import { useForm } from 'react-hook-form'
-import TextField from '@mui/material/TextField'
-import Button from '@mui/material/Button'
-import FormControlLabel from '@mui/material/FormControlLabel'
-import Checkbox from '@mui/material/Checkbox'
 import { Link } from 'react-router-dom'
-import InputAdornment from '@mui/material/InputAdornment'
 import IconButton from '@mui/material/IconButton'
 import VisibilityOff from '@mui/icons-material/VisibilityOff'
 import Visibility from '@mui/icons-material/Visibility'
 import CircularProgress from '@mui/material/CircularProgress'
-
+import {
+  Button,
+  Typography,
+  TextField,
+  FormControlLabel,
+  Checkbox,
+  InputAdornment,
+} from '@mui/material'
 const SignIn = () => {
   const {
     register,
@@ -36,7 +38,9 @@ const SignIn = () => {
 
   return (
     <div className='sign-in-card'>
-      <h2>Sign In</h2>
+      <Typography variant='h3' sx={{ fontWeight: 'bold' }}>
+        Sign In
+      </Typography>
       <p> Fill in the fields below to sign in into your account </p>
       <form className='sign-in-form' onSubmit={handleSubmit(onSubmit)}>
         <TextField
